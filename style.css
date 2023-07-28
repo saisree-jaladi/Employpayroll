@@ -1,0 +1,81 @@
+.Navbar{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000); 
+    background: linear-gradient(to right, #0f9b0f, #000000); 
+}
+.Navbar h1{
+    font-size: 70px;
+    margin:0px; 
+    text-align: center;
+    color: white;
+}
+
+.Navbar ul{
+    display: flex; 
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.Navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Navbar ul li a:hover{
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000); 
+    background: linear-gradient(to right, #0f9b0f, #000000); 
+    color: white;
+}
+.logo{
+    font-size: xx-large;
+}
+.Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000); 
+    background: linear-gradient(to left, #0f9b0f, #000000);
+     
+}
+.quote{
+    background-color: rgb(4, 135, 4);
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-family:fantasy;
+    letter-spacing: 3px;
+}
+.para{
+    justify-content: space-around;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+body{
+    margin: 0%;
+}
+.abt-container{
+  
+}
